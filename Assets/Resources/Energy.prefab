@@ -5000,7 +5000,6 @@ GameObject:
   - component: {fileID: 8736116225185672899}
   - component: {fileID: 5826186724503310745}
   - component: {fileID: 244327847561540027}
-  - component: {fileID: 348933826719068525}
   - component: {fileID: 8348763675120442513}
   m_Layer: 0
   m_Name: Energy
@@ -5154,28 +5153,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &348933826719068525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2638989396212063833}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObservedComponentsFoldoutOpen: 1
-  Group: 0
-  prefixField: -1
-  Synchronization: 3
-  OwnershipTransfer: 0
-  observableSearch: 2
-  ObservedComponents: []
-  sceneViewId: 0
-  InstantiationId: 0
-  isRuntimeInstantiated: 0
 --- !u!114 &8348763675120442513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5188,9 +5165,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec80fb4e4284297499954f77ee63e091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Amount: 30
-  Time: 5
-  Destroiable: 0
+  Amount: 45
+  Time: 6.5
+  Destroiable: 1
+  SpeedUpPoint: 0
 --- !u!1 &8062388637672903806
 GameObject:
   m_ObjectHideFlags: 0

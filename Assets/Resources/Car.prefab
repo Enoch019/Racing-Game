@@ -5710,6 +5710,7 @@ MonoBehaviour:
   accelerationFactor: 34
   turnFactor: 4.5
   maxSpeed: 35
+  a: 0
 --- !u!114 &-8218429742171764855
 MonoBehaviour:
   m_ObjectHideFlags: 0

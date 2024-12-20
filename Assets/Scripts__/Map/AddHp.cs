@@ -1,7 +1,6 @@
 using UnityEngine;
-using Photon.Pun; 
 
-public class AddHp : MonoBehaviourPunCallbacks
+public class AddHp : MonoBehaviour
 {
     private PlayerHp _playerHp; 
     public float Amount = 0;
@@ -10,11 +9,11 @@ public class AddHp : MonoBehaviourPunCallbacks
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            other.GetComponent<PhotonView>().RPC("AddOrMinusHp" , RpcTarget.All , Amount);
+            other.GetComponent<PlayerHp>().FromNoneNetwork(Amount);
             
             if (Destroiable)
             {
-                PhotonNetwork.Destroy(gameObject);
+                Destroy(gameObject);
             }
         }
     }

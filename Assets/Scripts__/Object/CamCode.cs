@@ -24,7 +24,7 @@ public class CamCode : MonoBehaviourPunCallbacks
             Transform transform = GameObject.FindGameObjectWithTag("Player").transform;
             if (transform != null)
             {
-                _cinemachineCamera.Follow = transform;
+                _cinemachineCamera.Follow = transform; 
                 isFound = true; 
             }
         }

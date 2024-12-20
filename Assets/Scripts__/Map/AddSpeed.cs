@@ -1,5 +1,4 @@
 using System;
-using Photon.Pun;
 using UnityEngine;
 
 public class AddSpeed : MonoBehaviour
@@ -20,7 +19,7 @@ public class AddSpeed : MonoBehaviour
 
             if (Destroiable)
             {
-                PhotonNetwork.Destroy(gameObject);
+                Destroy(gameObject);
             }
         }
     }

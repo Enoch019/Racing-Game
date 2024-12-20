@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7837621243027500475}
   - component: {fileID: 6289292047631512795}
   - component: {fileID: 6438625190314586522}
-  - component: {fileID: 6423342352471759109}
   - component: {fileID: 6386559109711232707}
   m_Layer: 0
   m_Name: Potion
@@ -166,28 +165,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &6423342352471759109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 161248499982894488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObservedComponentsFoldoutOpen: 1
-  Group: 0
-  prefixField: -1
-  Synchronization: 3
-  OwnershipTransfer: 0
-  observableSearch: 2
-  ObservedComponents: []
-  sceneViewId: 0
-  InstantiationId: 0
-  isRuntimeInstantiated: 0
 --- !u!114 &6386559109711232707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,7 +177,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64e982260d301934bb6e781dfb06aed5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Amount: 10
+  Amount: 5
+  Destroiable: 1
 --- !u!1 &1597511643022228945
 GameObject:
   m_ObjectHideFlags: 0
